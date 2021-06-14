@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .delete-book-wrapper {
+    position: absolute;
+    width: 1442px;
+    height: 1035px;
+    left: 0px;
+    top: 0px;
+    background: rgba(196, 196, 196, 0.4);
+  }
+
+  .top-novel {
+    background-image: url("../assets/covernya.png");
+    /* background-color: rgb(141, 182, 209); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 1444px;
+    height: 454px;
+    left: -2px;
+    top: 0px;
+    filter: brightness(80%);
+  }
+
+  .novel-pict {
+    position: absolute;
+    width: 200px;
+    height: 288.81px;
+    left: 1183px;
+    top: 253px;
+    background: url("../assets/novel.png");
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    filter: brightness(80%);
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url("../open-sans/OpenSans-Regular.ttf") format('truetype');
+  }
+
+  .book-title p {
+    position: absolute;
+    width: 585px;
+    height: 114px;
+    left: 104px;
+    top: 478px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 68px;
+    
+    color: #000000;
+  }
+
+  .publish-date p {
+    position: absolute;
+    width: 414px;
+    height: 58px;
+    left: 109px;
+    top: 543px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+  }
+
+  .book-desc p {
+    position: absolute;
+    width: 824px;
+    height: 342px;
+    left: 104px;
+    top: 632px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    
+    color: #000000;
+  }
+
+  .edit-delete p {
+    position: absolute;
+    width: 314px;
+    height: 82px;
+    left: 48px;
+    top: 37px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+  }
+
+  .edit-delete h1 {
+    position: absolute;
+    width: 314px;
+    height: 82px;
+    left: 128px;
+    top: 37px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+  }
+  
+  .delete-data {
+    position: absolute;
+    width: 850px;
+    height: 513px;
+    left: 305px;
+    top: 198px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+
+  @font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url("../airbnb-cereal-app/AirbnbCerealBook.woff");
+  }
+
+  .check-pict {
+    background-image: url("../assets/checked.png");
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 356px;
+    top: 145px;
+  }
+
+  .delete-message p {
+    position: absolute;
+    width: 600px;
+    height: 51px;
+    left: 162px;
+    top: 315px;
+    
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 46px;
+    
+    color: #000000;
+  }
+
+  .close-btn {
+    background-image: url("../assets/close.png");
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 792px;
+    top: 25px;
+}
