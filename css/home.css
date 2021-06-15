@@ -46,6 +46,7 @@
     font-size: 30px;
     line-height: 39px;
     color: #000000;
+    font-weight: 600;
 }
 
 .logout {
@@ -164,6 +165,7 @@
     font-family: Airbnb Cereal App;
     font-size: 30px;
     line-height: 39px;
+    font-weight: 600;
     
     color: #424242;
   }

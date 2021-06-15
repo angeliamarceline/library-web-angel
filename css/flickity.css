@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
   
-  body { font-family: sans-serif; }
+  /* body { font-family: sans-serif; } */
   
   .gallery {
     background: #EEE;
@@ -21,7 +21,7 @@
     counter-increment: gallery-cell;
   }
   
-  /* cell number */
+  /* cell number
   .gallery-cell:before {
     display: block;
     text-align: center;
@@ -29,4 +29,30 @@
     line-height: 200px;
     font-size: 80px;
     color: white;
+  } */
+
+  .carousel h1 {
+    font-family: Airbnb Cereal App;
+    font-size: 35px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-top: 189.6px;
+    margin-left: 37.2px;
+    font-weight: 600;
   }
+
+  .carousel h3 {
+    font-family: Airbnb Cereal App;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .flickity-prev-next-button.next {
+    margin-left: 900px;
+  }
+
+  .flickity-prev-next-button.previous {
+    margin-left: 50px;
+  }
+  
