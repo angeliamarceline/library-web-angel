@@ -184,11 +184,23 @@
     border: 1px solid #CACACA;
     box-sizing: border-box;
     border-radius: 20px;
+    width: 406px;
+    height: 43px;
   }
 
   .searching::placeholder {
     font-family: 'Airbnb Cereal App';
-    padding-left: 78px;
+    margin-left: 100px;
+  }
+
+  .searching img {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .searching input::placeholder {
+    padding-left: 40px;
   }
 
   .cardlist {
