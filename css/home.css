@@ -286,7 +286,7 @@
     src: url("../airbnb-cereal-app/AirbnbCerealBook.woff");
   }
 
-  .add-data p {
+  .addbook p {
     position: absolute;
     width: 279px;
     height: 66px;
@@ -299,11 +299,10 @@
   }
 
   .url p{
-    position: absolute;
     width: 187px;
     height: 70px;
-    left: 63px;
-    top: 173px;
+    margin-left: 10px;
+    margin-top: 130px;
     font-family: 'Airbnb Cereal App';
     font-size: 30px;
     line-height: 39px;
@@ -382,19 +381,18 @@
     line-height: 39px;
   }
 
-  .btn-save button{
-    position: absolute;
-    width: 204px;
+  .btn-save {
+    /* width: 204px;
     height: 80px;
-    left: 948px;
-    top: 683px;
     background: #FBCC38;
-    border-radius: 15px;
+    border-radius: 15px; */
 
     font-family: Airbnb Cereal App;
     font-size: 35px;
     line-height: 46px;
     color: #FFFDFD;
+    margin-top: 300px;
+    margin-left: 800px;
   }
 
   .addbook button{
